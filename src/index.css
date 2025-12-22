@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(41, 40, 40);
+}
+
+.nav-row h1 {
+  font-size: 30px;
+  color: greenyellow;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.naw-row ul:hover {
+  color: greenyellow;
+}
+
+.nav-row ul {
+  display: flex;
+  gap: 90px;
+  color: rgb(118, 115, 115);
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-row a {
+  text-decoration: none;  
+  color: rgb(118, 115, 115);
+  border-color: black;
+  border-radius: 30px;
+}
+.nav-row {
+  align-items: center;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.signup button {
+  background-color: greenyellow;
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 30px;
+}
+.signup button:hover {
+  background-color: green;
+  color: white;
+}
+
+.signup p {
+  gap: 10px;
+  align-items: center;
+  color: rgb(118, 115, 115);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup {
+  display: flex;
+  justify-content: space-between;
+}

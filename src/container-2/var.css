@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+  background: #292828;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.section-title {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.section-title span {
+  color: #9aff00;
+}
+
+.section-subtitle {
+  max-width: 700px;
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.job-card {
+  background: #222222;
+  border-radius: 18px;
+  padding: 28px;
+  border: 1px solid rgba(48, 46, 46, 0.06);
+}
+
+.job-card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.job-meta {
+  font-size: 12px;
+  color: #9a9a9a;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.job-card h4 {
+  font-size: 15px;
+  margin: 18px 0 8px;
+}
+
+.job-card p {
+  font-size: 14px;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.job-card ul {
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+
+.job-card li {
+  font-size: 14px;
+  color: #cfcfcf;
+  margin-bottom: 6px;
+}
+
+.job-card button {
+  background: #9aff00;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* 3-я карточка на всю ширину */
+.job-card:last-child {
+  grid-column: span 2;
+}
+
+/* 📱 адаптив */
+@media (max-width: 768px) {
+  .jobs {
+    grid-template-columns: 1fr;
+  }
+
+  .job-card:last-child {
+    grid-column: span 1;
+  }
+}
