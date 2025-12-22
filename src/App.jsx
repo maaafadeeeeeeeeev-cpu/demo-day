@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Idk from "./Idk";
 import Var from "./container-2/var";
 import Container from "./container/Container";
-import Lele from "./container-3/lele";
+import Lele from "./container-3/Lele";
 import Footer from "./Footer/Footer";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Container />
       <Var />
       <Lele />
-   <Footer />
+      <Footer />
     </>
   );
 }
