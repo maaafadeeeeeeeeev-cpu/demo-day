@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.page {
+.page { 
   min-height: 100vh;
   background: #292828;
   color: #fff;
@@ -41,7 +41,6 @@
 }
 
 .job-card {
-  background: #222222;
   border-radius: 18px;
   padding: 28px;
   border: 1px solid rgba(48, 46, 46, 0.06);

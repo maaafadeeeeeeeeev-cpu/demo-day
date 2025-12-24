@@ -1,5 +1,4 @@
 .footer {
-  background: #2c2b2b;
   color: #cfcfcf;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
@@ -60,7 +59,6 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border-top: 1px solid #767575;
   padding-top: 20px;
   gap: 15px;
 }
@@ -82,7 +80,6 @@
 }
 
 .legal a {
-  color: #c5bfbf;
   text-decoration: none;
   font-size: 12px;
 }
